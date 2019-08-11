@@ -1,5 +1,5 @@
 import React from "react";
-import { Appear } from "mdx-deck";
+import { Appear, useSteps } from "mdx-deck";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -9,15 +9,19 @@ import {
   Home as HomeIcon,
   Work as WorkIcon,
   School as SchoolIcon,
-  Star as StarIcon
+  Star as StarIcon,
+  Cake
 } from "@material-ui/icons";
 
 export const Timeline = () => {
-  
   return (
-    <div style={{justifySelf: "flex-end"}}>
-    <VerticalTimeline >
-      <Appear>
+    <div style={{ height: "100vh", overflow: "scroll", width: "110vw" }}>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+          icon={<Cake />}
+          date={"2019.3.4"}
+        ><h3 className="vertical-timeline-element-title">kakaopay 1기 개발자 인턴십 시작</h3></VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2011 - present"
@@ -108,12 +112,7 @@ export const Timeline = () => {
           </h4>
           <p>Creative Direction, Visual Design</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<StarIcon />}
-        />
-      </Appear>
-    </VerticalTimeline>
+      </VerticalTimeline>
     </div>
   );
 };
