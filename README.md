@@ -1,7 +1,9 @@
 # kakaopay internship presentation
 
-실행
+https://palindrom615.github.io/kakaopay-internship-final-presentation
+
+## 실행
 
 ```bash
-npm ci && npm run start
+yarn start
 ```
