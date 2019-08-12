@@ -1,17 +1,11 @@
 import React from "react";
-import { Appear, useSteps } from "mdx-deck";
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {
-  Home as HomeIcon,
-  Work as WorkIcon,
-  School as SchoolIcon,
-  Star as StarIcon,
-  Cake
-} from "@material-ui/icons";
+import { Work as WorkIcon, Cake, Gavel, Store, Flag } from "@material-ui/icons";
+import "@fortawesome/fontawesome-free/js/all";
 
 export const Timeline = () => {
   return (
@@ -21,96 +15,47 @@ export const Timeline = () => {
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           icon={<Cake />}
           date={"2019.3.4"}
-        ><h3 className="vertical-timeline-element-title">kakaopay 1기 개발자 인턴십 시작</h3></VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2011 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
+          <h3 className="vertical-timeline-element-title">입사</h3>
+          <p>kakaopay 1기 개발자 인턴십 시작</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          date="4.17"
+          iconStyle={{ background: "#FF9800", color: "#fff" }} // material Blue 500 https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+          icon={<Store />}
+          position="right"
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
+          <h3 className="vertical-timeline-element-title">파트너 센터 오픈</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          date="7.1"
+          iconStyle={{ background: "#FF9800", color: "#fff" }}
+          icon={<Gavel />}
+          position="right"
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">AML 데드라인</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          date="8.14"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<Flag />}
+          position="left"
+        >
+          <h3 className="vertical-timeline-element-title"> 현재</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="진행중..."
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<i class="fab fa-alipay" style={{ marginLeft: "-20px" }} />}
+          position="right"
+          style={{
+            opacity: "0.9"
+          }}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">Ali transfer</h3>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

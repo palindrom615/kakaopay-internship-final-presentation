@@ -20,6 +20,7 @@
     "deploy": "mdx-deck build -d docs presentation.mdx"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
     "raw-loader": "^3.0.0"
   }
 }
