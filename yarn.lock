@@ -2971,6 +2971,11 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+gemoji-parser@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/gemoji-parser/-/gemoji-parser-0.2.0.tgz#995f3312f19103ac98dafc3a64ac8e08bc4e9a9f"
+  integrity sha1-mV8zEvGRA6yY2vw6ZKyOCLxOmp8=
+
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"

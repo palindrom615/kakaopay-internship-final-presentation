@@ -1,0 +1,81 @@
+.
+├── apis.ts
+├── atomics
+│   ├── BankEditableCell.tsx
+│   └── ErrorTable.tsx
+├── constants.ts
+├── hooks
+│   ├── useAgencies.ts
+│   └── useValueData.ts
+├── index.ts
+├── molecules
+│   ├── AddressEditor.tsx
+│   ├── BankAccountEditor.tsx
+│   ├── BankAccountSelector.tsx
+│   ├── BusinessForm.tsx
+│   ├── CommentTable.tsx
+│   ├── ExtRadioField.tsx
+│   ├── ExtSelectField.tsx
+│   ├── IdentificationExtField.tsx
+│   ├── IdentificationValidatorField.tsx
+│   ├── KsicSelector.tsx
+│   ├── KycButton.tsx
+│   ├── OwnerForm.tsx
+│   ├── RepresentativeForm.tsx
+│   ├── ShowError.tsx
+│   ├── StatusForm.tsx
+│   └── SubmitBar.tsx
+├── organisms
+│   ├── BrandForm.tsx
+│   ├── CompanyForm
+│   │   ├── index.tsx
+│   │   ├── query2schema.ts
+│   │   └── schema2mutation.ts
+│   ├── ContactForm.tsx
+│   ├── ContentProviderForm
+│   │   ├── InputFields.ts
+│   │   └── index.tsx
+│   ├── IssueStatusChangeForm.tsx
+│   ├── PartnerForm
+│   │   ├── index.tsx
+│   │   ├── query2schema.ts
+│   │   └── schema2mutation.ts
+│   ├── PartnerReviewCSVUploader.tsx
+│   ├── PartnerReviewExcelUploader.tsx
+│   ├── PaymentsForm.tsx
+│   ├── RiskForm.spec.tsx
+│   ├── RiskForm.tsx
+│   ├── SettlementForm.tsx
+│   ├── WakandaCSVDownloader.tsx
+│   └── WakandaExcelDownloader.tsx
+├── pages
+│   ├── BrandEditor.tsx
+│   ├── BrandInfoList.tsx
+│   ├── CompanyEditor.tsx
+│   ├── CompanyList.tsx
+│   ├── ContentProviderCategoryInfoList.tsx
+│   ├── PartnerEditor.tsx
+│   ├── PartnerManagementInfoList.tsx
+│   ├── PartnerReviewEditor.tsx
+│   ├── PartnerReviewInfoList.tsx
+│   └── index.ts
+├── queries
+│   ├── __generated__.tsx
+│   ├── bank-account-editor.graphql
+│   ├── brand-info-list.graphql
+│   ├── brand.graphql
+│   ├── common-list.graphql
+│   ├── company-info.graphql
+│   ├── content-provider-category-info-list.graphql
+│   ├── create-company.graphql
+│   ├── issue-info-list.graphql
+│   ├── issue.graphql
+│   ├── kyc.graphql
+│   ├── partner-detail-info.graphql
+│   └── partner-management-info-list.graphql
+├── templates
+│   └── GraphqlSearchList.tsx
+├── types.ts
+└── utils.ts
+
+10 directories, 68 files

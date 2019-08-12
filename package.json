@@ -8,6 +8,7 @@
     "@material-ui/core": "^4.3.1",
     "@material-ui/icons": "^4.2.1",
     "code-surfer": "^2.0.0-alpha.10",
+    "gemoji-parser": "^0.2.0",
     "github-calendar": "^1.2.5",
     "mdx-deck": "^2.5.1",
     "react-remarkable": "^1.1.3",

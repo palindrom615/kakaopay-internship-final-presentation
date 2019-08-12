@@ -13,7 +13,7 @@ const Title = (props) => <h3 className="vertical-timeline-element-title" style={
 
 export const Timeline = () => {
   return (
-    <div style={{ height: "100vh", overflow: "scroll", width: "110vw" }}>
+    <div style={{ height: "90vh", overflow: "scroll", width: "110vw" }}>
       <VerticalTimeline>
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

@@ -1,0 +1,67 @@
+.
+├── common
+│   ├── BankAccountEditor.tsx
+│   ├── BankAccountSelector.tsx
+│   ├── CommonList.tsx
+│   ├── CompanyForm.tsx
+│   ├── PartnerForm.tsx
+│   ├── PaymentChannelForm.tsx
+│   ├── RiskForm.tsx
+│   ├── ServiceChannelTabs.tsx
+│   ├── WakandaCSVDownloader.tsx
+│   ├── __generated__
+│   │   ├── bank-account-editor.tsx
+│   │   ├── common-list.tsx
+│   │   ├── create-company.tsx
+│   │   └── partner-common-models.tsx
+│   ├── bank-account-editor.graphql
+│   ├── common-list.graphql
+│   └── create-company.graphql
+├── company
+│   ├── CompanyEditor.tsx
+│   ├── CompanyList.tsx
+│   ├── __generated__
+│   │   └── company-info.tsx
+│   └── company-info.graphql
+├── index.ts
+├── info
+│   ├── BrandEditor.tsx
+│   ├── BrandInfoList.tsx
+│   ├── CidTypeEditor.tsx
+│   ├── ContentProviderCategoryInfoList.tsx
+│   ├── __generated__
+│   │   ├── brand-info-list.tsx
+│   │   ├── brand.tsx
+│   │   ├── cidtype-info-list.tsx
+│   │   └── content-provider_cateogory-info-list.tsx
+│   ├── brand-info-list.graphql
+│   ├── brand.graphql
+│   └── content-provider-category-info-list.graphql
+├── management
+│   ├── PartnerEditor.tsx
+│   ├── PartnerFinder.tsx
+│   ├── PartnerManagementInfoList.tsx
+│   ├── __generated__
+│   │   ├── partner-detail-info.tsx
+│   │   ├── partner-management-info-list.tsx
+│   │   ├── partner-management-models.tsx
+│   │   └── partner-search-list.tsx
+│   ├── partner-detail-info.graphql
+│   └── partner-management-info-list.graphql
+├── payment
+│   └── MembershipFeeList.tsx
+├── review
+│   ├── IssueForm.tsx
+│   ├── PartnerReviewCSVUploader.tsx
+│   ├── PartnerReviewEditor.tsx
+│   ├── PartnerReviewInfoList.tsx
+│   ├── __generated__
+│   │   ├── issue-info-list.tsx
+│   │   └── issue.tsx
+│   ├── issue-info-list.graphql
+│   └── issue.graphql
+├── riskGradeCodes.ts
+├── types.ts
+└── values.ts
+
+11 directories, 53 files
