@@ -6,7 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Cake, Gavel, Store, Flag, TrendingUp } from "@material-ui/icons";
 import "@fortawesome/fontawesome-free/js/all";
-import WorkingLian from './WorkingLian'
+import WorkingLian from './Imgs'
 
 const P = (props) => <p style={{wordBreak: "keep-all"}}>{props.children}</p>
 const Title = (props) => <h3 className="vertical-timeline-element-title" style={props.style}>{props.children}</h3>
@@ -77,7 +77,7 @@ export const Timeline = () => {
             border: '40px #fd0'
           }}
         >
-          <Title style={{opacity: "0.5"}}>Work In Progress...</Title>
+          <Title style={{opacity: "0.5"}}>Work In Process . . .</Title>
           <WorkingLian/>
         </VerticalTimelineElement>
       </VerticalTimeline>

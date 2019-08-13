@@ -14,8 +14,7 @@ d336f81c :lipstick: Disable identity validator button when passport
 203fe294 :bug: PLATFORMREQ-192 Fix initial values
 218d295e :bug: PLATFORMREQ-191 Fix identityExt code save
 87173fa3 :recycle: Refactor identification validator api
-f4ff6fd4 :recycle: refactor name translator
-d063cb34 :bug: Fix ownerAuthCd100
+d063cb34 :ambulance: Fix ownerAuthCd100
 176798d7 :bug: 심사완료된 심사의 사업자등록번호가 수정가능한 버그 수정
 dcf85a74 :fire: Remove unreachable code
 50fabf05 :mute: Disable sentry plugin
