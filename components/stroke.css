@@ -7,32 +7,32 @@
   stroke: white;
   stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  animation: stroke-offset 4s infinite ease-in-out;
+  animation: stroke-offset 2s ease-in-out;
 }
 .text-copy:nth-child(1) {
-  stroke: #360745;
+  stroke: #8BC34A;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #D61C59;
+  stroke: #F44336;
   stroke-dashoffset: 14%;
 }
+/* .text-copy:nth-child(3) {
+  stroke: #FF9800;
+  stroke-dashoffset: 21%;
+} */
 .text-copy:nth-child(3) {
-  stroke: #E7D84B;
+  stroke: #FFFDE7;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #EFEAC5;
+  stroke: #03A9F4;
   stroke-dashoffset: 28%;
-}
-.text-copy:nth-child(5) {
-  stroke: #1B8798;
-  stroke-dashoffset: 35%;
 }
 
 @keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 35%;
-    stroke-dasharray: 0 87.5%;
+    stroke-dashoffset: 28%;
+    stroke-dasharray: 12.5% 87.5%;
   }
 }

@@ -1,32 +1,46 @@
 import "./stroke.css";
 
-export const Stroke = () => {
+export const Stroke = (props) => {
   return (
-    <svg style={{ height: "100%", width: "120px" }} viewBox="0 0 100% 72px">
+    <svg width="2em">
       <symbol id="s-text">
         <text
-          text-anchor="middle"
+          textAnchor="middle"
           x="50%"
           y="100%"
-          class="text--line"
+          className="text--line"
           fill="url(#diagonalHatch)"
         >
-          YET
+          {props.children}
         </text>
       </symbol>
 
-      <g class="g-ants">
-        <use xlinkHref="#s-text" class="text-copy" />
-        <use xlinkHref="#s-text" class="text-copy" />
-        <use xlinkHref="#s-text" class="text-copy" />
-        <use xlinkHref="#s-text" class="text-copy" />
-        <use xlinkHref="#s-text" class="text-copy" />
+      <g className="g-ants">
+        <use xlinkHref="#s-text" className="text-copy" />
+        <use xlinkHref="#s-text" className="text-copy" />
+        <use xlinkHref="#s-text" className="text-copy" />
+        <use xlinkHref="#s-text" className="text-copy" />
+        <use xlinkHref="#s-text" className="text-copy" />
       </g>
       <pattern
         id="diagonalHatch"
         patternUnits="userSpaceOnUse"
-        width="4"
-        height="4"
+        width="10"
+        height="10"
+      >
+        <path
+          d="M0,0 l10,10,
+          M-1,9 l2,2
+          M9,-1 l2,2
+           "
+          style={{ stroke: "black", strokeWidth: 2, strokeLinecap: "square" }}
+        />
+      </pattern>
+      <pattern
+        id="diagonalHatch2"
+        patternUnits="userSpaceOnUse"
+        width="12"
+        height="12"
       >
         <path
           d="M-1,1 l2,-2
