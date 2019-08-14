@@ -1,38 +1,39 @@
 .text--line {
   font-size: 1em;
+  background-color: #263238;
 }
 
 .text-copy {
   fill: none;
   stroke: white;
-  stroke-dasharray: 7% 28%;
-  stroke-width: 3px;
+  stroke-dasharray: 9% 36%;
+  stroke-width: 4px;
   animation: stroke-offset 2s ease-in-out;
 }
 .text-copy:nth-child(1) {
   stroke: #8BC34A;
-  stroke-dashoffset: 7%;
+  stroke-dashoffset: 9%;
 }
 .text-copy:nth-child(2) {
   stroke: #F44336;
-  stroke-dashoffset: 14%;
+  stroke-dashoffset: 18%;
 }
 /* .text-copy:nth-child(3) {
   stroke: #FF9800;
   stroke-dashoffset: 21%;
 } */
 .text-copy:nth-child(3) {
-  stroke: #FFFDE7;
-  stroke-dashoffset: 21%;
+  stroke: #9C27B0;
+  stroke-dashoffset: 27%;
 }
 .text-copy:nth-child(4) {
   stroke: #03A9F4;
-  stroke-dashoffset: 28%;
+  stroke-dashoffset: 36%;
 }
 
 @keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 28%;
+    stroke-dashoffset: 36%;
     stroke-dasharray: 12.5% 87.5%;
   }
 }

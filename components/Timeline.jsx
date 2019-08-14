@@ -9,7 +9,7 @@ import "@fortawesome/fontawesome-free/js/all";
 import WorkingLian from './Imgs'
 
 const P = (props) => <p style={{wordBreak: "keep-all"}}>{props.children}</p>
-const Title = (props) => <h3 className="vertical-timeline-element-title" style={props.style}>{props.children}</h3>
+const Title = (props) => <h3 className="vertical-timeline-element-title" style={{...props.style, wordBreak: "keep-all"}}>{props.children}</h3>
 
 export const Timeline = () => {
   return (
@@ -30,7 +30,7 @@ export const Timeline = () => {
           icon={<Store />}
           position="right"
         >
-          <Title>파트너 센터 오픈</Title>
+          <Title>파트너 센터 a.k.a. 와칸다 오픈</Title>
           <P>카카오페이에서 발행하는 pid 발급, 관리를 위한 플랫폼</P>
         </VerticalTimelineElement>
         <VerticalTimelineElement

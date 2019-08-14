@@ -25,28 +25,15 @@ export const Stroke = (props) => {
       <pattern
         id="diagonalHatch"
         patternUnits="userSpaceOnUse"
-        width="10"
-        height="10"
+        width="8"
+        height="8"
       >
         <path
-          d="M0,0 l10,10,
-          M-1,9 l2,2
-          M9,-1 l2,2
+          d="M0,0 l8,8,
+          M-1,7 l2,2
+          M7,-1 l2,2
            "
-          style={{ stroke: "black", strokeWidth: 2, strokeLinecap: "square" }}
-        />
-      </pattern>
-      <pattern
-        id="diagonalHatch2"
-        patternUnits="userSpaceOnUse"
-        width="12"
-        height="12"
-      >
-        <path
-          d="M-1,1 l2,-2
-           M0,4 l4,-4
-           M3,5 l2,-2"
-          style={{ stroke: "black", strokeWidth: 1 }}
+          style={{ stroke: "black", strokeWidth: 1, strokeLinecap: "square" }}
         />
       </pattern>
     </svg>

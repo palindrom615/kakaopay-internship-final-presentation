@@ -17,9 +17,9 @@ const BeforeAfter = () => (
     />
     <Code
       title="schema first"
-      focus="20:25,27:39,40:50,53:62"
+      focus="12:16,23:24,32:36,44:48,58:60"
       code={require("!!raw-loader!../examples/DirBefore").default}
-      subtitle={<Markdown>`route` 기반 디렉터리 구조</Markdown>}
+      subtitle={<Markdown>`route` 곳곳에 흩어져있는 schema</Markdown>}
     />
     <Code
       title="schema first"
@@ -31,12 +31,7 @@ const BeforeAfter = () => (
       title="schema first"
       code={require("!!raw-loader!../examples/DirAfter").default}
     />
-    <Code
-      title="schema first"
-      focus="11:61"
-      code={require("!!raw-loader!../examples/DirAfter").default}
-      subtitle={<Markdown>_atomic design_을 적용</Markdown>}
-    />
+
     <Code
       title="schema first"
       focus="62:75"
