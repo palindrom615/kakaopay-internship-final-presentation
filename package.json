@@ -1,7 +1,6 @@
 {
   "name": "code-surfer-example",
   "version": "0.0.0",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "@axetroy/react-github-calendar": "^2.0.0",
