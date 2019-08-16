@@ -1,13 +1,9 @@
 import React from "react";
 import {
   CodeSurferLayout,
-  CodeSurferColumnLayout,
-  Code,
-  Step,
-  nightOwl
+  Code
 } from "code-surfer";
 import Markdown from "react-remarkable";
-export const theme = nightOwl;
 
 const BeforeAfter = () => (
   <CodeSurferLayout>

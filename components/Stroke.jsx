@@ -1,3 +1,4 @@
+import React from 'react';
 import "./stroke.css";
 
 export const Stroke = (props) => {
